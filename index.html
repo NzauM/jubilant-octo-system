@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Shopping List:</h1>
+    <ul id="itemslist">
+
+    </ul>
+    <button id="clearList">Clear List</button>
+    <form id="editItem"  style="display: none;">
+        <h1>Edit Shopping Item</h1>
+        <label for="Item">Item Name</label>
+        <input type="text" id="edititemName"> 
+        <button type="submit">Edit Item</button>
+    </form>
+    <form id="addItem">
+        <h1>New Shopping Item</h1>
+        <label for="Item">Item Name</label>
+        <input type="text" id="itemName"> 
+        <label for="Price">Item Price</label>
+        <input type="text" id="itemprice">
+        <button type="submit">Add Item</button>
+    </form>
+    <script src="shoppinglist.js"></script>
+    <!-- <script src="index.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,27 @@
+#addItem{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border: 3px solid;
+    padding: 5%;
+    padding-top: 0%;
+
+}
+
+#addItem input{
+    margin-bottom: 5%;
+}
+#editItem{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border: 3px solid;
+    padding: 5%;
+    padding-top: 0%;
+    margin-bottom: 5%;
+
+}
+
+#editItem input{
+    margin-bottom: 5%;
+}
