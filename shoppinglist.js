@@ -3,7 +3,7 @@
 // let items;
 const itemsContainer = document.getElementById('itemslist')
 
-fetch("http://localhost:3000/items")
+fetch("https://shoppinglistdb.vercel.app/items")
 .then((resp)=>resp.json())
 .then((data)=>{
     console.log(data)
