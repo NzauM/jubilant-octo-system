@@ -34,7 +34,7 @@ nameInput.addEventListener('input',(e)=>{
 
 shoppingForm.addEventListener('submit',(e=>{
     e.preventDefault()
-    fetch("http://localhost:3000/items",{
+    fetch("https://shoppinglistdb.vercel.app/items",{
         method:'POST',
         headers:{
             "Content-Type":"application/json"
